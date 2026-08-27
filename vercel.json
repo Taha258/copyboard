@@ -2,11 +2,7 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
-  "build": {
-    "env": {
-      "GIT_LFS_ENABLED": "1"
-    }
-  },
+  "outputDirectory": ".",
   "headers": [
     {
       "source": "/(.*)",
