@@ -11,5 +11,8 @@
     "copyboard"
   ],
   "author": "CopyBoard",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
+  }
 }
