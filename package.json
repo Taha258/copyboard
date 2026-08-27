@@ -1,0 +1,19 @@
+{
+  "name": "copyboard",
+  "version": "1.0.0",
+  "description": "CopyBoard - On-demand Performance Copywriting & Visual Design Platform",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve . -p 3000",
+    "start": "serve ."
+  },
+  "keywords": [
+    "copywriting",
+    "design",
+    "creative",
+    "agency",
+    "copyboard"
+  ],
+  "author": "CopyBoard",
+  "license": "ISC"
+}

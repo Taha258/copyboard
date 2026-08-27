@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CopyBoard — The Best Copywriters Tool For Hire</title>
+  <meta name="description" content="300+ vetted & trained writers across every industry, matched for you within 24 hours." />
+  <link rel="icon" type="image/png" href="Logo/Asset 4@4x.png" />
+  <link rel="apple-touch-icon" href="Logo/Asset 4@4x.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✦ FLOATING PILL NAVBAR ✦ -->
+  <header class="navbar" id="navbar">
+    <nav class="navbar__pill" role="navigation" aria-label="Main navigation">
+
+      <!-- Logo -->
+      <a href="#" class="nav__logo" id="nav-logo" aria-label="CopyBoard home">
+        <img src="Logo/Asset 4@4x.png" alt="CopyBoard Logo" class="nav__logo-img" width="26" height="26" />
+        <span class="nav__logo-text"><strong>Copy</strong>Board</span>
+      </a>
+
+      <!-- Nav Links with Sliding Indicator -->
+      <ul class="nav__links" id="nav-links" role="list">
+        <li class="nav__pill-bg" id="nav-pill-bg" aria-hidden="true"></li>
+        <li><a href="#how-it-works" class="nav__link nav__link--active" id="nav-how">How it works</a></li>
+        <li><a href="#testimonials"  class="nav__link" id="nav-stories">Client stories</a></li>
+        <li><a href="#pricing"       class="nav__link" id="nav-pricing">Pricing</a></li>
+      </ul>
+
+      <!-- CTA -->
+      <a href="#form" class="nav__cta" id="nav-cta">Book a call</a>
+
+    </nav>
+  </header>
+
+  <!-- ✦ HERO SECTION ✦ -->
+  <section class="hero" id="hero">
+
+    <!-- Background grid -->
+    <div class="hero__grid-overlay"></div>
+
+    <!-- Radial glow blobs -->
+    <div class="hero__glow hero__glow--center"></div>
+    <div class="hero__glow hero__glow--left"></div>
+    <div class="hero__glow hero__glow--right"></div>
+
+    <!-- Floating 3D decorative elements -->
+    <div class="float-el float-el--envelope" aria-hidden="true">
+      <div class="float-icon">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="url(#envGrad)"/>
+          <rect x="10" y="18" width="44" height="30" rx="4" fill="white" fill-opacity="0.15" stroke="white" stroke-opacity="0.4" stroke-width="1.5"/>
+          <path d="M10 22l22 14 22-14" stroke="white" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="envGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F5C542"/>
+              <stop offset="1" stop-color="#E09B00"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+
+    <div class="float-el float-el--printer" aria-hidden="true">
+      <div class="float-icon">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="url(#prntGrad)"/>
+          <rect x="14" y="20" width="36" height="24" rx="4" fill="white" fill-opacity="0.15" stroke="white" stroke-opacity="0.4" stroke-width="1.5"/>
+          <rect x="20" y="14" width="24" height="10" rx="2" fill="white" fill-opacity="0.3"/>
+          <rect x="20" y="38" width="24" height="12" rx="2" fill="white" fill-opacity="0.3"/>
+          <circle cx="42" cy="30" r="2" fill="white" fill-opacity="0.7"/>
+          <defs>
+            <linearGradient id="prntGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFD84D"/>
+              <stop offset="1" stop-color="#C47F00"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+
+    <div class="float-el float-el--plane" aria-hidden="true">
+      <div class="float-icon float-icon--plane">
+        <svg viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 26L48 4L36 48L24 34L4 26Z" fill="url(#planeGrad)" stroke="white" stroke-opacity="0.3" stroke-width="1"/>
+          <path d="M24 34L30 28" stroke="white" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="planeGrad" x1="4" y1="4" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFE066"/>
+              <stop offset="1" stop-color="#D4920A"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+
+    <div class="float-el float-el--arrow-left" aria-hidden="true">
+      <svg viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg" width="60">
+        <path d="M55 5 Q30 5 10 30" stroke="#FFD84D" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+        <path d="M10 30 L6 22 M10 30 L18 28" stroke="#FFD84D" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+      </svg>
+    </div>
+
+    <div class="float-el float-el--arrow-right" aria-hidden="true">
+      <svg viewBox="0 0 60 40" fill="none" xmlns="http://www.w3.org/2000/svg" width="60">
+        <path d="M5 5 Q30 5 50 30" stroke="#FFD84D" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.5"/>
+        <path d="M50 30 L54 22 M50 30 L42 28" stroke="#FFD84D" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+      </svg>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="hero__content">
+
+
+      <!-- Headline -->
+      <h1 class="hero__headline" id="hero-headline">
+        Unlimited Graphics.<br />
+        Zero Hassle.<br />
+        <span class="hero__headline-underline">One Flat Fee.</span>
+      </h1>
+
+      <!-- Subtext -->
+      <p class="hero__subtext" id="hero-subtext">
+        Save 35+ hours a week | Get premium, handcrafted, and on-demand visuals delivered in 12 hours — no contracts, no limits.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="hero__ctas" id="hero-ctas">
+        <a href="#form" class="btn btn--primary" id="cta-form">
+          Fill Out Our Form
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="#testimonials" class="btn btn--outline" id="cta-testimonials">
+          View Testimonials
+        </a>
+      </div>
+
+      <!-- Social Proof -->
+      <div class="hero__social-proof" id="hero-social-proof">
+        <div class="proof__avatars">
+          <img class="proof__avatar" src="https://i.pravatar.cc/40?img=11" alt="Customer 1" />
+          <img class="proof__avatar" src="https://i.pravatar.cc/40?img=22" alt="Customer 2" />
+          <img class="proof__avatar" src="https://i.pravatar.cc/40?img=33" alt="Customer 3" />
+          <img class="proof__avatar" src="https://i.pravatar.cc/40?img=44" alt="Customer 4" />
+        </div>
+        <div class="proof__stat">
+          <span class="proof__number">1,000+</span>
+          <span class="proof__label">Satisfied Customers</span>
+        </div>
+        <div class="proof__divider"></div>
+        <div class="proof__stat">
+          <div class="proof__stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star star--half">★</span>
+          </div>
+          <span class="proof__label">4.9/5 Rating</span>
+        </div>
+      </div>
+
+      <!-- Video / Media Card -->
+      <div class="hero__media-card" id="hero-media">
+        <div class="media-card__inner" id="hero-media-trigger" role="button" tabindex="0" aria-label="Play video in full size">
+          <!-- Video preview / background -->
+          <div class="media-card__bg">
+            <video
+              src="Logo/Copy of Keycode.AI Ad.mp4"
+              class="media-card__video-preview"
+              muted
+              loop
+              playsinline
+              autoplay
+              preload="metadata"
+            ></video>
+            <div class="media-card__overlay"></div>
+          </div>
+
+          <!-- Big text overlay -->
+          <div class="media-card__headline">
+            <span class="media-headline-text">$50,000</span>
+            <span class="media-headline-slash">/</span>
+            <span class="media-headline-month">month</span>
+          </div>
+
+          <!-- Play button -->
+          <button class="media-card__play" id="play-btn" aria-label="Play video">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Features strip below card -->
+        <div class="media-card__features">
+          <div class="feature-item">
+            <svg class="feature-check" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" fill="#FFD700" fill-opacity="0.2" stroke="#FFD700" stroke-width="1.2"/>
+              <path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#FFD700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            100% For Free
+          </div>
+          <div class="feature-item">
+            <svg class="feature-check" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" fill="#FFD700" fill-opacity="0.2" stroke="#FFD700" stroke-width="1.2"/>
+              <path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#FFD700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Fast Copywriting
+          </div>
+          <div class="feature-item">
+            <svg class="feature-check" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" fill="#FFD700" fill-opacity="0.2" stroke="#FFD700" stroke-width="1.2"/>
+              <path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#FFD700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Pro Trained
+          </div>
+          <div class="feature-item">
+            <svg class="feature-check" viewBox="0 0 16 16" fill="none">
+              <circle cx="8" cy="8" r="7" fill="#FFD700" fill-opacity="0.2" stroke="#FFD700" stroke-width="1.2"/>
+              <path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#FFD700" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            $45M Generated
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ✦ LIVE ANIMATED STATS METRICS SECTION ✦ -->
+  <section class="stats-section" id="stats-section">
+    <div class="stats-container">
+
+      <!-- Stat 1 -->
+      <div class="stat-card">
+        <div class="stat-number-wrap">
+          <span class="stat-number" data-target="100">0</span>
+          <span class="stat-suffix">+</span>
+        </div>
+        <p class="stat-label">High-ticket brands scaled with copy</p>
+      </div>
+
+      <!-- Divider -->
+      <div class="stat-divider" aria-hidden="true"></div>
+
+      <!-- Stat 2 -->
+      <div class="stat-card">
+        <div class="stat-number-wrap">
+          <span class="stat-number" data-target="500">0</span>
+          <span class="stat-suffix">+</span>
+        </div>
+        <p class="stat-label">Commercial projects that hit target</p>
+      </div>
+
+      <!-- Divider -->
+      <div class="stat-divider" aria-hidden="true"></div>
+
+      <!-- Stat 3 -->
+      <div class="stat-card">
+        <div class="stat-number-wrap">
+          <span class="stat-prefix">$</span>
+          <span class="stat-number" data-target="100">0</span>
+          <span class="stat-suffix">M+</span>
+        </div>
+        <p class="stat-label">Revenue generated by our clients</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ✦ ANIMATED TICKER STRIPS ✦ -->
+  <div class="ticker-wrapper" aria-hidden="true">
+
+    <!-- Strip 1 — scrolls LEFT (top band) -->
+    <div class="ticker-band ticker-band--top">
+      <div class="ticker-track ticker-track--left">
+        <div class="ticker-content">
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 24/7 SUPPORT</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> LIMITED TIME OFFER</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> INSTANT PRESS</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 48 HOUR DELIVERY</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> EXPIRING SOON</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 20% OFF</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 300+ WRITERS READY</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> $45M GENERATED</span>
+        </div>
+        <!-- Duplicate for seamless loop -->
+        <div class="ticker-content" aria-hidden="true">
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 24/7 SUPPORT</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> LIMITED TIME OFFER</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> INSTANT PRESS</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 48 HOUR DELIVERY</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> EXPIRING SOON</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 20% OFF</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 300+ WRITERS READY</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> $45M GENERATED</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Strip 2 — scrolls RIGHT (bottom band) -->
+    <div class="ticker-band ticker-band--bottom">
+      <div class="ticker-track ticker-track--right">
+        <div class="ticker-content">
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> EXPIRING SOON</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 20% OFF</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> LIMITED TIME OFFER</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> INSTANT PRESS</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 48 HOUR DELIVERY</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> PRO TRAINED WRITERS</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> BOOK A CALL NOW</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 1,000+ CLIENTS</span>
+        </div>
+        <!-- Duplicate for seamless loop -->
+        <div class="ticker-content" aria-hidden="true">
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> EXPIRING SOON</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 20% OFF</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> LIMITED TIME OFFER</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> INSTANT PRESS</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 48 HOUR DELIVERY</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> PRO TRAINED WRITERS</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> BOOK A CALL NOW</span>
+          <span class="ticker-item"><span class="ticker-bolt">⚡</span> 1,000+ CLIENTS</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ✦ TESTIMONIALS SECTION ✦ -->
+  <section class="testimonials" id="testimonials">
+
+    <!-- Left Panel: Rating + Stats -->
+    <div class="testi-left">
+      <div class="testi-rating-num">5.0</div>
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-avatars">
+        <img src="https://i.pravatar.cc/40?img=5"  alt="" class="testi-av" />
+        <img src="https://i.pravatar.cc/40?img=12" alt="" class="testi-av" />
+        <img src="https://i.pravatar.cc/40?img=17" alt="" class="testi-av" />
+        <img src="https://i.pravatar.cc/40?img=29" alt="" class="testi-av" />
+        <img src="https://i.pravatar.cc/40?img=44" alt="" class="testi-av" />
+      </div>
+      <p class="testi-desc">Trusted choice for freelancers, agencies, and influencers, with over 1,000+ projects delivered and counting.</p>
+    </div>
+
+    <!-- Right: Scrolling columns -->
+    <div class="testi-columns">
+
+      <!-- Column 1 — scrolls UP -->
+      <div class="testi-col-wrap">
+        <div class="testi-col testi-col--up">
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Saved $13,000+ on editing costs. 450+ edited videos: reels, tutorials, podcasts &amp; more. Gained back time to focus on growth and client success. Maintained full creative direction with a trusted writing partner.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=47" alt="Shana Yurko" />
+              <div>
+                <strong>Shana Yurko</strong>
+                <span>@shanayurko</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Mandy cut $45K in costs and unlocked 10 hours of content. All while we crushed 400+ video edits on her behalf.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=9" alt="Mandy Emerson" />
+              <div>
+                <strong>Mandy Emerson</strong>
+                <span>@themandyemerson</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>We saved fitness coach Chad Morgan over $80,000 by delivering more than 1,100 video edits, totaling over 15 hours of polished content. Our service allows his brand to maintain its energy and consistency without the stress of post-production.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=57" alt="Chad Morgan" />
+              <div>
+                <strong>Chad Morgan</strong>
+                <span>@chadmorganfit</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Cut costs by $65k and scaled by handling 300+ pieces. This partnership kept and fueled his brand's superpowers.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=61" alt="Alex Rivera" />
+              <div>
+                <strong>Alex Rivera</strong>
+                <span>@alexrivera</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duplicate for seamless loop -->
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Saved $13,000+ on editing costs. 450+ edited videos: reels, tutorials, podcasts &amp; more. Gained back time to focus on growth and client success. Maintained full creative direction with a trusted writing partner.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=47" alt="Shana Yurko" />
+              <div>
+                <strong>Shana Yurko</strong>
+                <span>@shanayurko</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Mandy cut $45K in costs and unlocked 10 hours of content. All while we crushed 400+ video edits on her behalf.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=9" alt="Mandy Emerson" />
+              <div>
+                <strong>Mandy Emerson</strong>
+                <span>@themandyemerson</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Column 2 — scrolls DOWN (opposite) -->
+      <div class="testi-col-wrap">
+        <div class="testi-col testi-col--down">
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Blankit Media Unlocked $28K+ in savings and 600+ videos. Their secret? Editing that works around their hustle, not the other way around.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=33" alt="Blankit Media" />
+              <div>
+                <strong>Blankit Media</strong>
+                <span>@blankitmedia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>In just 10 months, we saved comedian Ben Gleib over $5,100 and countless hours by delivering more than 250 video edits, from podcasts to reels, which kept his content consistent and on-brand.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=14" alt="Ben Gleib" />
+              <div>
+                <strong>Ben Gleib</strong>
+                <span>@bengleib</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>No timelines. No bottlenecks. Just 256 pieces of content, $11K+ saved, and Mike &amp; AJ locked in on what actually grows their business.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=68" alt="Agency Coach" />
+              <div>
+                <strong>Agency Coach</strong>
+                <span>@agency.coach</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>The team matched us with a writer who genuinely understood our voice. First draft was nearly perfect. We've been with them 8 months now.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=25" alt="Sarah Kim" />
+              <div>
+                <strong>Sarah Kim</strong>
+                <span>@sarahkimcreates</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duplicate for seamless loop -->
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Blankit Media Unlocked $28K+ in savings and 600+ videos. Their secret? Editing that works around their hustle, not the other way around.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=33" alt="Blankit Media" />
+              <div>
+                <strong>Blankit Media</strong>
+                <span>@blankitmedia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>In just 10 months, we saved comedian Ben Gleib over $5,100 and countless hours by delivering more than 250 video edits, from podcasts to reels, which kept his content consistent and on-brand.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=14" alt="Ben Gleib" />
+              <div>
+                <strong>Ben Gleib</strong>
+                <span>@bengleib</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Column 3 — scrolls UP (slower) -->
+      <div class="testi-col-wrap">
+        <div class="testi-col testi-col--up testi-col--slow">
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Nick unlocked $6,300+ in savings across videos. His secret? A dedicated team that matches his cinematic vision without freelance chaos or missed deadlines.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=52" alt="Nick Parsons" />
+              <div>
+                <strong>Nick Parsons</strong>
+                <span>@forgefirecreative</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Ronnie cut $130K and dozens of production hours on Instagram. All writing and edits on his behalf, consistently.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=70" alt="Ronnie C" />
+              <div>
+                <strong>Ronnie C.</strong>
+                <span>@ronnieccreates</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Within 24 hours I had 3 writer options. Chose one, briefed them, and had copy back same day. It's the fastest I've ever moved on a campaign.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=38" alt="James Wu" />
+              <div>
+                <strong>James Wu</strong>
+                <span>@jameswudigital</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>4.9 stars doesn't happen by accident. These writers are trained, vetted, and actually care about your brand. Highly recommend to any agency owner.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=19" alt="Priya Mehta" />
+              <div>
+                <strong>Priya Mehta</strong>
+                <span>@priyamehta_co</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Duplicate for seamless loop -->
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Nick unlocked $6,300+ in savings across videos. His secret? A dedicated team that matches his cinematic vision without freelance chaos or missed deadlines.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=52" alt="Nick Parsons" />
+              <div>
+                <strong>Nick Parsons</strong>
+                <span>@forgefirecreative</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-quote">❝</div>
+            <p>Ronnie cut $130K and dozens of production hours on Instagram. All writing and edits on his behalf, consistently.</p>
+            <div class="testi-author">
+              <img src="https://i.pravatar.cc/48?img=70" alt="Ronnie C" />
+              <div>
+                <strong>Ronnie C.</strong>
+                <span>@ronnieccreates</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ✦ EXPANDING VIDEO SHOWCASE SECTION (HOVER EXPAND) ✦ -->
+  <section class="video-showcase" id="video-showcase">
+    
+    <!-- Section Header -->
+    <div class="showcase-header">
+      <div class="showcase-badge">
+        <span class="showcase-badge__dot"></span>
+        FEATURED DELIVERABLES
+      </div>
+      <h2 class="showcase-title">High-Converting Video Campaigns</h2>
+      <p class="showcase-subtext">Hover over any video card to expand and watch live deliverables crafted for our top clients.</p>
+    </div>
+
+    <!-- Expanding Video Accordion Track -->
+    <div class="video-accordion" id="video-accordion">
+
+      <!-- Video Card 1 (Leftmost: Direct Response Creative) -->
+      <div class="v-card v-card--active" data-video="Logo/Copy of new ad revision.mp4" tabindex="0" role="button" aria-label="Play Direct Response Creative">
+        <video class="v-card__video" src="Logo/Copy of new ad revision.mp4" muted loop playsinline preload="metadata"></video>
+        <div class="v-card__overlay"></div>
+        <div class="v-card__info">
+          <span class="v-card__tag">🔥 High-Converting Ad</span>
+          <h3 class="v-card__title">Direct Response Creative</h3>
+        </div>
+        <div class="v-card__play-btn" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+      </div>
+
+      <!-- Video Card 2 (Keycode.AI Commercial Ad) -->
+      <div class="v-card" data-video="Logo/Copy of Keycode.AI Ad.mp4" tabindex="0" role="button" aria-label="Play Keycode.AI Commercial Ad">
+        <video class="v-card__video" src="Logo/Copy of Keycode.AI Ad.mp4" muted loop playsinline preload="metadata"></video>
+        <div class="v-card__overlay"></div>
+        <div class="v-card__info">
+          <span class="v-card__tag">⚡ Ad Hooks &amp; Script</span>
+          <h3 class="v-card__title">Keycode.AI Commercial Ad</h3>
+        </div>
+        <div class="v-card__play-btn" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+      </div>
+
+      <!-- Video Card 3 -->
+      <div class="v-card" data-video="Logo/SFC 8 How to Create a Recruitment Agency That Runs Itself.mp4" tabindex="0" role="button" aria-label="Play Agency Scaling Masterclass">
+        <video class="v-card__video" src="Logo/SFC 8 How to Create a Recruitment Agency That Runs Itself.mp4" muted loop playsinline preload="metadata"></video>
+        <div class="v-card__overlay"></div>
+        <div class="v-card__info">
+          <span class="v-card__tag">📈 Long-Form VSL</span>
+          <h3 class="v-card__title">Agency Scaling Masterclass</h3>
+        </div>
+        <div class="v-card__play-btn" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+      </div>
+
+      <!-- Video Card 4 -->
+      <div class="v-card" data-video="Logo/Slack JessicaChapmanHollyWells.mp4" tabindex="0" role="button" aria-label="Play Client Case Study Story">
+        <video class="v-card__video" src="Logo/Slack JessicaChapmanHollyWells.mp4" muted loop playsinline preload="metadata"></video>
+        <div class="v-card__overlay"></div>
+        <div class="v-card__info">
+          <span class="v-card__tag">⭐ Brand Storytelling</span>
+          <h3 class="v-card__title">Client Case Study Story</h3>
+        </div>
+        <div class="v-card__play-btn" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ✦ PRICING SECTION ✦ -->
+  <section class="pricing" id="pricing">
+
+    <!-- Background particles -->
+    <div class="pricing-bg" aria-hidden="true">
+      <span class="p-particle p-particle--1"></span>
+      <span class="p-particle p-particle--2"></span>
+      <span class="p-particle p-particle--3"></span>
+      <span class="p-particle p-particle--4"></span>
+      <span class="p-particle p-particle--5"></span>
+    </div>
+
+    <!-- Section header -->
+    <div class="pricing-header">
+      <span class="pricing-badge">💛 Simple Pricing</span>
+      <h2 class="pricing-title">Choose Your <span class="pricing-title-hl">Growth Plan</span></h2>
+      <p class="pricing-subtitle">No hidden fees. No contracts. Cancel anytime. Match with your perfect writer in 24 hours.</p>
+
+      <!-- Toggle -->
+      <div class="pricing-toggle" id="pricing-toggle">
+        <span class="toggle-label" id="toggle-monthly">Monthly</span>
+        <button class="toggle-switch" id="toggle-btn" aria-checked="false" role="switch" aria-label="Toggle annual billing">
+          <span class="toggle-knob"></span>
+        </button>
+        <span class="toggle-label" id="toggle-annual">Annual <em class="toggle-save">Save 25%</em></span>
+      </div>
+    </div>
+
+    <!-- Cards grid -->
+    <div class="pricing-grid" id="pricing-grid">
+
+      <!-- ── STANDARD ── -->
+      <div class="p-card" id="card-starter" data-tilt>
+        <div class="p-card__shine"></div>
+        <div class="p-card__inner">
+          
+          <div class="p-card__header-block">
+            <div class="p-plan-name p-plan-name--standard">Standard</div>
+            <div class="p-price">
+              <span class="p-currency">£</span>
+              <span class="p-amount" data-monthly="297" data-annual="237">297</span>
+              <span class="p-period">/month</span>
+            </div>
+            <div class="p-plan-subtitle">For <span class="p-hl">Steady growth</span></div>
+          </div>
+
+          <div class="p-includes-title">Includes:</div>
+
+          <ul class="p-features">
+            <li class="p-feature p-feature--yes">Unlimited Design Requests + video edits</li>
+            <li class="p-feature p-feature--yes">1 Active Request at a Time</li>
+            <li class="p-feature p-feature--yes">2 Business Days Turnaround</li>
+            <li class="p-feature p-feature--yes">Access to Dashboard + 1x Revisions</li>
+            <li class="p-feature p-feature--yes">Commercial Usage Rights</li>
+          </ul>
+
+          <a href="#booking" class="p-cta p-cta--ghost" id="cta-starter">Try Free</a>
+        </div>
+      </div>
+
+      <!-- ── UNLIMITED (RECOMMENDED) ── -->
+      <div class="p-card p-card--popular" id="card-pro" data-tilt>
+        <div class="p-card__shine"></div>
+        <div class="p-recommended-badge">Recommended</div>
+        <div class="p-card__inner">
+          
+          <div class="p-card__header-block">
+            <div class="p-plan-name p-plan-name--unlimited">Unlimited</div>
+            <div class="p-price">
+              <span class="p-currency">£</span>
+              <span class="p-amount" data-monthly="497" data-annual="397">497</span>
+              <span class="p-period">/month</span>
+            </div>
+            <div class="p-plan-subtitle">For <span class="p-hl">Fast-Moving</span> brands</div>
+          </div>
+
+          <div class="p-includes-title">Includes:</div>
+
+          <ul class="p-features">
+            <li class="p-feature p-feature--yes">Unlimited Designs &amp; Revisions</li>
+            <li class="p-feature p-feature--yes">Unlimited Video Edits</li>
+            <li class="p-feature p-feature--yes">2 Active Design Requests At Once</li>
+            <li class="p-feature p-feature--yes">Animated Graphics &amp; Simple Motion</li>
+            <li class="p-feature p-feature--yes">Access To Creative Strategist Via Slack</li>
+            <li class="p-feature p-feature--yes">Strategy Support | 1 Hour / Week</li>
+            <li class="p-feature p-feature--yes">Priority Delivery — 1 Business Day| 1 Hour / Week</li>
+          </ul>
+
+          <a href="#booking" class="p-cta p-cta--primary" id="cta-pro">Try Free</a>
+        </div>
+      </div>
+
+      <!-- ── ENTERPRISE ── -->
+      <div class="p-card" id="card-agency" data-tilt>
+        <div class="p-card__shine"></div>
+        <div class="p-card__inner">
+          
+          <div class="p-card__header-block">
+            <div class="p-plan-name p-plan-name--enterprise">Enterprise</div>
+            <div class="p-plan-subtitle p-plan-subtitle--enterprise">For <span class="p-hl">Established</span> Corporations</div>
+          </div>
+
+          <div class="p-includes-title">Includes:</div>
+
+          <ul class="p-features">
+            <li class="p-feature p-feature--yes">Unlimited Design</li>
+            <li class="p-feature p-feature--yes">Unlimited Videos</li>
+            <li class="p-feature p-feature--yes">Exclusive Personal Team</li>
+            <li class="p-feature p-feature--yes">Brand Strategist</li>
+            <li class="p-feature p-feature--yes">Creative Director</li>
+            <li class="p-feature p-feature--yes">Same Day Delivery | 24/7</li>
+          </ul>
+
+          <a href="#booking" class="p-cta p-cta--ghost" id="cta-agency">Speak to Us</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ✦ BOOKING / CALENDAR SECTION ✦ -->
+  <section class="booking" id="booking">
+
+    <div class="booking-header">
+      <span class="pricing-badge">📅 Book a Session</span>
+      <h2 class="pricing-title">Schedule Your <span class="pricing-title-hl">Free Call</span></h2>
+      <p class="pricing-subtitle">Pick a date and time — we'll match you with the perfect writer within 24 hours.</p>
+    </div>
+
+    <div class="booking-card" id="booking-card">
+
+      <!-- LEFT: Calendar + Date picker -->
+      <div class="booking-left">
+
+        <!-- Live Digital Clock -->
+        <div class="live-clock" id="live-clock">
+          <div class="live-clock__time">
+            <span id="lc-h">00</span>
+            <span class="lc-colon">:</span>
+            <span id="lc-m">00</span>
+            <span class="lc-colon">:</span>
+            <span id="lc-s">00</span>
+          </div>
+          <div class="live-clock__date" id="lc-date">Wednesday, August 27</div>
+          <div class="live-clock__ampm" id="lc-ampm">AM</div>
+        </div>
+
+        <!-- Month Nav -->
+        <div class="cal-header">
+          <button class="cal-nav" id="cal-prev" aria-label="Previous month">&#8592;</button>
+          <span class="cal-month-label" id="cal-month-label">August 2026</span>
+          <button class="cal-nav" id="cal-next" aria-label="Next month">&#8594;</button>
+        </div>
+
+        <!-- Day labels -->
+        <div class="cal-days-header">
+          <span>Mo</span><span>Tu</span><span>We</span>
+          <span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+        </div>
+
+        <!-- Calendar grid (JS fills this) -->
+        <div class="cal-grid" id="cal-grid"></div>
+
+        <!-- Selected date display -->
+        <div class="cal-selected-date" id="cal-selected-date">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span id="selected-date-label">Select a date below</span>
+        </div>
+
+      </div>
+
+      <!-- CENTER DIVIDER -->
+      <div class="booking-divider"></div>
+
+      <!-- RIGHT: Clock face + Time picker -->
+      <div class="booking-right">
+
+        <!-- Analog Clock Face -->
+        <div class="analog-clock" id="analog-clock" aria-label="Analog clock">
+          <!-- Hour markers -->
+          <div class="clock-face">
+            <span class="clock-num" style="--n:12; --a:0deg">12</span>
+            <span class="clock-num" style="--n:1;  --a:30deg">1</span>
+            <span class="clock-num" style="--n:2;  --a:60deg">2</span>
+            <span class="clock-num" style="--n:3;  --a:90deg">3</span>
+            <span class="clock-num" style="--n:4;  --a:120deg">4</span>
+            <span class="clock-num" style="--n:5;  --a:150deg">5</span>
+            <span class="clock-num" style="--n:6;  --a:180deg">6</span>
+            <span class="clock-num" style="--n:7;  --a:210deg">7</span>
+            <span class="clock-num" style="--n:8;  --a:240deg">8</span>
+            <span class="clock-num" style="--n:9;  --a:270deg">9</span>
+            <span class="clock-num" style="--n:10; --a:300deg">10</span>
+            <span class="clock-num" style="--n:11; --a:330deg">11</span>
+            <!-- Tick marks -->
+            <div class="clock-ticks" id="clock-ticks"></div>
+            <!-- Hands -->
+            <div class="clock-hand clock-hand--hour"  id="hand-hour"></div>
+            <div class="clock-hand clock-hand--minute" id="hand-minute"></div>
+            <div class="clock-hand clock-hand--second" id="hand-second"></div>
+            <div class="clock-center"></div>
+          </div>
+        </div>
+
+        <!-- Time selector -->
+        <div class="time-selector">
+          <div class="time-display">
+            <button class="time-unit-btn" id="btn-hour-up" aria-label="Hour up">▲</button>
+            <span class="time-digit" id="ts-hour">07</span>
+            <button class="time-unit-btn" id="btn-hour-dn" aria-label="Hour down">▼</button>
+          </div>
+          <span class="time-sep">:</span>
+          <div class="time-display">
+            <button class="time-unit-btn" id="btn-min-up" aria-label="Minute up">▲</button>
+            <span class="time-digit" id="ts-min">00</span>
+            <button class="time-unit-btn" id="btn-min-dn" aria-label="Minute down">▼</button>
+          </div>
+          <div class="ampm-toggle">
+            <button class="ampm-btn ampm-btn--active" id="btn-am">AM</button>
+            <button class="ampm-btn" id="btn-pm">PM</button>
+          </div>
+        </div>
+
+        <!-- Time slots -->
+        <div class="time-slots" id="time-slots">
+          <div class="time-slot" data-time="09:00 AM">9:00 AM</div>
+          <div class="time-slot" data-time="10:00 AM">10:00 AM</div>
+          <div class="time-slot" data-time="11:00 AM">11:00 AM</div>
+          <div class="time-slot" data-time="12:00 PM">12:00 PM</div>
+          <div class="time-slot" data-time="02:00 PM">2:00 PM</div>
+          <div class="time-slot" data-time="03:00 PM">3:00 PM</div>
+          <div class="time-slot time-slot--booked" data-time="04:00 PM">4:00 PM</div>
+          <div class="time-slot" data-time="05:00 PM">5:00 PM</div>
+        </div>
+
+        <!-- Book button -->
+        <button class="book-btn" id="book-btn" disabled>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          Confirm Booking
+        </button>
+        <p class="booking-note" id="booking-note">Please select a date and time slot</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ BRAND LOGOS MARQUEE SECTION (ABOVE FAQS) ✦ -->
+  <section class="brand-marquee" id="brand-marquee">
+    <div class="brand-marquee__container">
+
+      <div class="brand-marquee__slider" aria-hidden="true">
+        <!-- Left and right gradient fade masks -->
+        <div class="brand-marquee__mask brand-marquee__mask--left"></div>
+        <div class="brand-marquee__mask brand-marquee__mask--right"></div>
+
+        <!-- Track moving Right to Left -->
+        <div class="brand-marquee__track">
+          <!-- 18 Brand Logos Set 1 -->
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic01.png" alt="Brand 01" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic02.png" alt="Brand 02" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic03.png" alt="Brand 03" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic04.png" alt="Brand 04" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic05.png" alt="Brand 05" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic06.png" alt="Brand 06" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic07.png" alt="Brand 07" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic08.png" alt="Brand 08" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic10.png" alt="Brand 10" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic11.png" alt="Brand 11" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic12.png" alt="Brand 12" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic13.png" alt="Brand 13" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic14.png" alt="Brand 14" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic15.png" alt="Brand 15" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic16.png" alt="Brand 16" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic17.png" alt="Brand 17" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic18.png" alt="Brand 18" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic19.png" alt="Brand 19" loading="lazy" /></div>
+
+          <!-- 18 Brand Logos Set 2 (Seamless Continuous Loop) -->
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic01.png" alt="Brand 01" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic02.png" alt="Brand 02" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic03.png" alt="Brand 03" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic04.png" alt="Brand 04" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic05.png" alt="Brand 05" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic06.png" alt="Brand 06" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic07.png" alt="Brand 07" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic08.png" alt="Brand 08" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic10.png" alt="Brand 10" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic11.png" alt="Brand 11" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic12.png" alt="Brand 12" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic13.png" alt="Brand 13" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic14.png" alt="Brand 14" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic15.png" alt="Brand 15" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic16.png" alt="Brand 16" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic17.png" alt="Brand 17" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic18.png" alt="Brand 18" loading="lazy" /></div>
+          <div class="brand-logo-item"><img src="Logo/Brand/Round Circle pic19.png" alt="Brand 19" loading="lazy" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✦ FAQs SECTION ✦ -->
+  <section class="faqs" id="faqs">
+    <div class="faqs__container">
+      
+      <!-- Left Column: Title & Subtitle -->
+      <div class="faqs__left">
+        <h2 class="faqs__title">FAQs</h2>
+        <p class="faqs__subtitle">The Questions Everyone Asks Before They Hire A Copywriter.</p>
+      </div>
+
+      <!-- Right Column: Accordion List -->
+      <div class="faqs__right">
+        <div class="faq-list">
+
+          <!-- Item 1 (Open by default) -->
+          <div class="faq-item faq-item--open">
+            <button class="faq-question" aria-expanded="true">
+              <div class="faq-q-left">
+                <span class="faq-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </span>
+                <span class="faq-q-text">How fast will I receive my Designs?</span>
+              </div>
+              <span class="faq-toggle-icon">−</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Most designs are delivered within 12 - 24 hours ( 7 days / week ) depending on your package tier.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <div class="faq-q-left">
+                <span class="faq-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </span>
+                <span class="faq-q-text">Is it really Unlimited?</span>
+              </div>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Yes you can submit as many requests as you want. We'll keep working through them one by one fast with our premium package allowing you to get multiple deliveries everyday.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <div class="faq-q-left">
+                <span class="faq-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </span>
+                <span class="faq-q-text">What if I don't like the design?</span>
+              </div>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>We'll revise it until you do. Unlimited revisions are part of every plan.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <div class="faq-q-left">
+                <span class="faq-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </span>
+                <span class="faq-q-text">Who is actually designing the work?</span>
+              </div>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Top 0.1% vetted human designers. No AI, no templates, no shortcuts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <div class="faq-q-left">
+                <span class="faq-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </span>
+                <span class="faq-q-text">What can I request?</span>
+              </div>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                <p>Anything from thumbnails, logos, ads, UI/UX, presentations, and motion graphics — basically all major visual formats. (depending on your tier).</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ✦ PROFESSIONAL ENTERPRISE FOOTER ✦ -->
+  <footer class="footer" id="footer">
+
+    <!-- Mouse-follow ambient spotlight -->
+    <div class="footer__spotlight" id="footer-spotlight" aria-hidden="true"></div>
+
+    <div class="footer__inner">
+
+      <!-- ── Pre-Footer CTA Glass Card ── -->
+      <div class="footer__cta-banner">
+        <div class="footer__cta-left">
+          <span class="footer__cta-badge">⚡ START SCALING TODAY</span>
+          <h3 class="footer__cta-title">Ready to elevate your visuals &amp; copy?</h3>
+          <p class="footer__cta-desc">Get matched with top 0.1% vetted designers &amp; writers. Deliverables in 12–24 hours.</p>
+        </div>
+        <div class="footer__cta-actions">
+          <a href="#booking" class="footer__cta-btn footer__cta-btn--primary">Book a Free Strategy Call →</a>
+          <a href="#pricing" class="footer__cta-btn footer__cta-btn--ghost">Explore Pricing Plans</a>
+        </div>
+      </div>
+
+      <!-- ── Main Footer Grid ── -->
+      <div class="footer__main-grid">
+
+        <!-- Column 1: Brand & Trust -->
+        <div class="footer__brand-col">
+          <a href="#" class="footer__logo" aria-label="CopyBoard home">
+            <img src="Logo/Asset 4@4x.png" alt="CopyBoard Logo" class="footer__logo-img" width="30" height="30" />
+            <span><strong>Copy</strong>Board</span>
+          </a>
+          <p class="footer__tagline">The premium on-demand platform for high-growth brands and creative agencies worldwide.</p>
+          
+          <!-- Live Operational Status Badge -->
+          <div class="footer__status-pill">
+            <span class="footer__status-dot"></span>
+            <span>All Systems Operational · 12-24h Delivery</span>
+          </div>
+
+          <!-- Social icons -->
+          <div class="footer__socials">
+            <a href="#" class="footer__social-btn" aria-label="Twitter/X" id="social-x">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.631L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+            <a href="#" class="footer__social-btn" aria-label="Instagram" id="social-ig">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="footer__social-btn" aria-label="LinkedIn" id="social-li">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="footer__social-btn" aria-label="Facebook" id="social-fb">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Deliverables & Services -->
+        <div class="footer__nav-col">
+          <h4 class="footer__col-heading">Services</h4>
+          <ul class="footer__nav-links">
+            <li><a href="#video-showcase">Performance Ad Hooks</a></li>
+            <li><a href="#video-showcase">Direct Response Creative</a></li>
+            <li><a href="#video-showcase">Landing Page Copy</a></li>
+            <li><a href="#video-showcase">Email Marketing Flows</a></li>
+            <li><a href="#video-showcase">Motion Graphics &amp; VSLs</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Platform -->
+        <div class="footer__nav-col">
+          <h4 class="footer__col-heading">Platform</h4>
+          <ul class="footer__nav-links">
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#video-showcase">Featured Deliverables</a></li>
+            <li><a href="#testimonials">Client Case Studies</a></li>
+            <li><a href="#pricing">Pricing Plans</a></li>
+            <li><a href="#booking">Book a Strategy Call</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Company & Trust -->
+        <div class="footer__nav-col">
+          <h4 class="footer__col-heading">Company &amp; Trust</h4>
+          <ul class="footer__nav-links">
+            <li><a href="#testimonials">About CopyBoard</a></li>
+            <li><a href="#faqs">Frequently Asked Questions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Security &amp; Encryption</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- ── Large Sleek Architectural Watermark ── -->
+      <div class="footer__giant-brand" id="footer-giant-brand">
+        <svg class="footer__brand-svg" viewBox="0 0 1200 160" width="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+          <defs>
+            <!-- Wide Dynamic Mouse Spotlight Gradient -->
+            <radialGradient id="footerTextSpotlight" cx="50%" cy="50%" r="55%" fx="50%" fy="50%">
+              <stop offset="0%" stop-color="#FFFDF0" stop-opacity="1" />
+              <stop offset="25%" stop-color="#FFE866" stop-opacity="0.95" />
+              <stop offset="50%" stop-color="#FFD700" stop-opacity="0.75" />
+              <stop offset="75%" stop-color="#B38600" stop-opacity="0.30" />
+              <stop offset="100%" stop-color="#332400" stop-opacity="0" />
+            </radialGradient>
+            <!-- Ambient Baseline Gradient -->
+            <linearGradient id="footerTextBase" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#FFD700" stop-opacity="0.22" />
+              <stop offset="50%" stop-color="#A68300" stop-opacity="0.12" />
+              <stop offset="100%" stop-color="#1F1700" stop-opacity="0.04" />
+            </linearGradient>
+          </defs>
+          <text x="50%" y="130" text-anchor="middle" class="footer__svg-text footer__svg-text--base">COPYBOARD</text>
+          <text x="50%" y="130" text-anchor="middle" class="footer__svg-text footer__svg-text--lit">COPYBOARD</text>
+        </svg>
+      </div>
+
+      <!-- ── Divider ── -->
+      <div class="footer__divider"></div>
+
+      <!-- ── Bottom Bar ── -->
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 CopyBoard Inc. All rights reserved.</p>
+        <div class="footer__security-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          <span>256-Bit SSL Encrypted · Guaranteed 24h Delivery</span>
+        </div>
+        <p class="footer__credit">Engineered for high-growth brands</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- ✦ SCROLL TO TOP WITH CIRCULAR PROGRESS (LEFT BOTTOM) ✦ -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <svg class="scroll-top__progress" width="50" height="50" viewBox="0 0 50 50">
+      <!-- Track circle -->
+      <circle class="scroll-top__track" cx="25" cy="25" r="21" />
+      <!-- Progress circle -->
+      <circle class="scroll-top__bar" id="scroll-progress-bar" cx="25" cy="25" r="21" />
+    </svg>
+    <!-- Arrow Icon -->
+    <span class="scroll-top__icon" aria-hidden="true">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="19" x2="12" y2="5"></line>
+        <polyline points="5 12 12 5 19 12"></polyline>
+      </svg>
+    </span>
+  </button>
+
+  <!-- ✦ VIDEO MODAL LIGHTBOX POPUP ✦ -->
+  <div class="video-modal" id="video-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Video Player">
+    <div class="video-modal__backdrop" id="video-modal-backdrop"></div>
+    <div class="video-modal__container">
+      <button class="video-modal__close" id="video-modal-close" aria-label="Close video">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="video-modal__video-wrapper">
+        <video id="modal-video-player" src="Logo/Copy of Keycode.AI Ad.mp4" controls preload="auto" playsinline></video>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✦ LIVE CHAT AGENT WIDGET (BOTTOM RIGHT) ✦ -->
+  <div class="chat-widget" id="chat-widget">
+
+    <!-- Floating greeting bubble popup -->
+    <div class="chat-greeting" id="chat-greeting">
+      <div class="chat-greeting__avatar">
+        <img src="Logo/Asset 4@4x.png" alt="CopyBoard Agent" width="20" height="20" />
+      </div>
+      <div class="chat-greeting__body">
+        <div class="chat-greeting__title">CopyBoard Assistant ⚡</div>
+        <p class="chat-greeting__text">Need help matching with a copywriter? Ask me anything!</p>
+      </div>
+      <button class="chat-greeting__close" id="chat-greeting-close" aria-label="Dismiss greeting">×</button>
+    </div>
+
+    <!-- Floating Chat Trigger Button -->
+    <button class="chat-trigger" id="chat-trigger" aria-label="Open support chat" aria-expanded="false">
+      <!-- Unread Notification Badge -->
+      <span class="chat-badge" id="chat-badge">1</span>
+      <!-- Open Icon -->
+      <span class="chat-icon chat-icon--open">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </span>
+      <!-- Close Icon -->
+      <span class="chat-icon chat-icon--close">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </span>
+      <!-- Online Pulse Indicator -->
+      <span class="chat-status-pulse"></span>
+    </button>
+
+    <!-- Chat Window Dialog -->
+    <div class="chat-box" id="chat-box" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Customer Support Chat">
+      
+      <!-- Chat Header -->
+      <div class="chat-header">
+        <div class="chat-header__info">
+          <div class="chat-header__avatar-wrap">
+            <img src="Logo/Asset 4@4x.png" alt="CopyBoard AI" class="chat-header__avatar" />
+            <span class="chat-online-dot"></span>
+          </div>
+          <div>
+            <div class="chat-header__name">CopyBoard Assistant <span class="chat-header__bot-tag">AI</span></div>
+            <div class="chat-header__status">Typically replies in seconds</div>
+          </div>
+        </div>
+        <div class="chat-header__actions">
+          <button class="chat-btn-icon" id="chat-minimize-btn" aria-label="Minimize chat">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Chat Messages Container -->
+      <div class="chat-messages" id="chat-messages">
+        
+        <!-- Welcome Message -->
+        <div class="chat-msg chat-msg--bot">
+          <div class="chat-msg__avatar">
+            <img src="Logo/Asset 4@4x.png" alt="Bot" />
+          </div>
+          <div class="chat-msg__bubble">
+            <p>Hey there! 👋 Welcome to <strong>CopyBoard</strong>.</p>
+            <p>I can instantly match you with a vetted copywriter or answer any questions about our plans and 24h turnaround.</p>
+          </div>
+        </div>
+
+        <!-- Quick Action Chips -->
+        <div class="chat-quick-actions" id="chat-quick-actions">
+          <button class="quick-chip" data-query="Ad Copy & Hooks">⚡ Ad Copy &amp; Hooks</button>
+          <button class="quick-chip" data-query="Landing Pages">📄 Landing Pages</button>
+          <button class="quick-chip" data-query="Email Sequences">📧 Email Sequences</button>
+          <button class="quick-chip" data-query="How does pricing work?">💰 How pricing works</button>
+          <button class="quick-chip" data-query="Book a call">📅 Book a free call</button>
+        </div>
+
+      </div>
+
+      <!-- Typing Indicator -->
+      <div class="chat-typing" id="chat-typing">
+        <span></span><span></span><span></span>
+      </div>
+
+      <!-- Chat Input Area -->
+      <form class="chat-input-area" id="chat-form">
+        <input
+          type="text"
+          class="chat-input"
+          id="chat-input"
+          placeholder="Ask a question or type here..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit" class="chat-send-btn" id="chat-send" aria-label="Send message">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
